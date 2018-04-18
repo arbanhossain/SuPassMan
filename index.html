@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SuPassMan</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <button title="Enter New Credentials" onclick="openCreds('/credentials.html')" class="subBtn">Enter Credentials</button>
+    <button title="Show Current Credentials" onclick="showCreds()" class="subBtn">Show All Credentials</button>
+    <button title="Decrypt a password" onclick="openCreds('/decrypt.html')" class="subBtn">Decrypt a password</button>
+    <button title="Initiate JSON File" onclick="initJSON()" class="subBtn" style="background-color:red;">Initiate JSON File</button>
+    <button title="Delete" onclick="openCreds('/deleteCreds.html')" class="subBtn" style="background-color:red;">Delete a Credential</button>
+    <div id="credentials">
+      <p id="creds"></p>
+    </div>
+  </body>
+  <script src="app.js"></script>
+  <script src="jsonChange.js"></script>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "SuPassMan",
+  "version": "0.1.0",
+  "description": "straightforward and simple password manager",
+  "license": "MIT",
+  "author": {
+    "name": "Arban Hossain"
+  },
+  "main": "main.js"
+}
