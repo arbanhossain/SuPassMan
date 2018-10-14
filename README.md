@@ -18,4 +18,4 @@ electron main.js
 
 ### Things you should know
 
-This is obviously not a good way to store your password and I also don't recommend using it. I wrote it for a quick test. Electron apps can be debugged easily and there is also no extra step of protection when you decrypt a password. If someone knows the key, the know your password. I have intention of rewriting this in a more secure and solid way when I get some time for this.
+This is obviously not a good way to store your password and I also **don't recommend** using it. I wrote it for a quick test. Electron apps can be debugged easily and there is also no extra step of protection when you decrypt a password. If someone knows the key, the know your password. I have intention of rewriting this in a more secure and solid way when I get some time for this.
